@@ -5,6 +5,22 @@ __pycache__/
 
 # C extensions
 *.so
+# 舊版腳本與垃圾檔案
+find_keyframes.py
+app.py
+output/
+
+# 影片檔與資料庫
+*.mp4
+*.MOV
+*.webm
+*.db
+pitching_data.db
+
+# 環境資料夾
+venv/
+node_modules/
+__pycache__/
 
 # Distribution / packaging
 .Python
